@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "YetAnotherXcframework"
-    s.version      = "1.0.0.1"
+    s.version      = "2.0.0"
     s.summary      = "A brief description of framework project."
     s.description  = <<-DESC
     An extended description of framework project.

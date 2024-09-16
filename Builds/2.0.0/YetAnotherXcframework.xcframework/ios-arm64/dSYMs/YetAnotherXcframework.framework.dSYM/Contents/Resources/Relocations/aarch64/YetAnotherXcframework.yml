@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/raffi/Library/Developer/Xcode/DerivedData/YetAnotherXcframework-dmhcaycahgtytsfewbfuygqonthz/Build/Intermediates.noindex/ArchiveIntermediates/YetAnotherXcframework/InstallationBuildProductsLocation/Library/Frameworks/YetAnotherXcframework.framework/YetAnotherXcframework'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x2DFDC, size: 0x8, addend: 0x0, symName: _YetAnotherXcframeworkVersionString, symObjAddr: 0x0, symBinAddr: 0x4170, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x2E011, size: 0x8, addend: 0x0, symName: _YetAnotherXcframeworkVersionNumber, symObjAddr: 0x48, symBinAddr: 0x41B8, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x2E04E, size: 0x8, addend: 0x0, symName: '_$s21YetAnotherXcframework13YAXcframeworkC3logyyF', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x80 }
+  - { offsetInCU: 0x6C, offset: 0x2E093, size: 0x8, addend: 0x0, symName: '_$s21YetAnotherXcframework13YAXcframeworkC3logyyF', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x80 }
+  - { offsetInCU: 0xEB, offset: 0x2E112, size: 0x8, addend: 0x0, symName: '_$s21YetAnotherXcframework13YAXcframeworkCfd', symObjAddr: 0xC0, symBinAddr: 0x40C0, symSize: 0x8 }
+  - { offsetInCU: 0x11A, offset: 0x2E141, size: 0x8, addend: 0x0, symName: '_$s21YetAnotherXcframework13YAXcframeworkCfD', symObjAddr: 0xC8, symBinAddr: 0x40C8, symSize: 0x10 }
+  - { offsetInCU: 0x14A, offset: 0x2E171, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x80, symBinAddr: 0x4080, symSize: 0x40 }
+  - { offsetInCU: 0x15E, offset: 0x2E185, size: 0x8, addend: 0x0, symName: '_$s21YetAnotherXcframework13YAXcframeworkCMa', symObjAddr: 0xD8, symBinAddr: 0x40D8, symSize: 0x20 }
+...

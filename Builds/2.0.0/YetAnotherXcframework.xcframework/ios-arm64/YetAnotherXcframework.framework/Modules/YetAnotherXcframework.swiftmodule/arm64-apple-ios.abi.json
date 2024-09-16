@@ -1,0 +1,64 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YetAnotherXcframework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YAXcframework",
+        "printedName": "YAXcframework",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21YetAnotherXcframework13YAXcframeworkC3logyyF",
+            "mangledName": "$s21YetAnotherXcframework13YAXcframeworkC3logyyF",
+            "moduleName": "YetAnotherXcframework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21YetAnotherXcframework13YAXcframeworkC",
+        "mangledName": "$s21YetAnotherXcframework13YAXcframeworkC",
+        "moduleName": "YetAnotherXcframework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/raffi\/YetAnotherXcframework\/YetAnotherXcframework\/YAXcframework.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 22,
+      "value": "\"Hello YAXcframework!\""
+    }
+  ]
+}
