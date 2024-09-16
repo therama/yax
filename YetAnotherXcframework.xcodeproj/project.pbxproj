@@ -9,12 +9,26 @@
 /* Begin PBXBuildFile section */
 		075D9D9D2C98553E00CB6646 /* YetAnotherXcframework.h in Headers */ = {isa = PBXBuildFile; fileRef = 075D9D9C2C98553E00CB6646 /* YetAnotherXcframework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		075D9DA42C98557000CB6646 /* YAXcframework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075D9DA32C98557000CB6646 /* YAXcframework.swift */; };
+		075D9DAC2C985E5C00CB6646 /* YetAnotherXcframeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075D9DAB2C985E5C00CB6646 /* YetAnotherXcframeworkTests.swift */; };
+		075D9DAD2C985E5C00CB6646 /* YetAnotherXcframework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075D9D992C98553E00CB6646 /* YetAnotherXcframework.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		075D9DAE2C985E5C00CB6646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 075D9D902C98553E00CB6646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 075D9D982C98553E00CB6646;
+			remoteInfo = YetAnotherXcframework;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		075D9D992C98553E00CB6646 /* YetAnotherXcframework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YetAnotherXcframework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		075D9D9C2C98553E00CB6646 /* YetAnotherXcframework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YetAnotherXcframework.h; sourceTree = "<group>"; };
 		075D9DA32C98557000CB6646 /* YAXcframework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAXcframework.swift; sourceTree = "<group>"; };
+		075D9DA92C985E5C00CB6646 /* YetAnotherXcframeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YetAnotherXcframeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		075D9DAB2C985E5C00CB6646 /* YetAnotherXcframeworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YetAnotherXcframeworkTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +39,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		075D9DA62C985E5C00CB6646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075D9DAD2C985E5C00CB6646 /* YetAnotherXcframework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -32,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				075D9D9B2C98553E00CB6646 /* YetAnotherXcframework */,
+				075D9DAA2C985E5C00CB6646 /* YetAnotherXcframeworkTests */,
 				075D9D9A2C98553E00CB6646 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				075D9D992C98553E00CB6646 /* YetAnotherXcframework.framework */,
+				075D9DA92C985E5C00CB6646 /* YetAnotherXcframeworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +75,14 @@
 				075D9DA32C98557000CB6646 /* YAXcframework.swift */,
 			);
 			path = YetAnotherXcframework;
+			sourceTree = "<group>";
+		};
+		075D9DAA2C985E5C00CB6646 /* YetAnotherXcframeworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				075D9DAB2C985E5C00CB6646 /* YetAnotherXcframeworkTests.swift */,
+			);
+			path = YetAnotherXcframeworkTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +117,24 @@
 			productReference = 075D9D992C98553E00CB6646 /* YetAnotherXcframework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		075D9DA82C985E5C00CB6646 /* YetAnotherXcframeworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075D9DB02C985E5C00CB6646 /* Build configuration list for PBXNativeTarget "YetAnotherXcframeworkTests" */;
+			buildPhases = (
+				075D9DA52C985E5C00CB6646 /* Sources */,
+				075D9DA62C985E5C00CB6646 /* Frameworks */,
+				075D9DA72C985E5C00CB6646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				075D9DAF2C985E5C00CB6646 /* PBXTargetDependency */,
+			);
+			name = YetAnotherXcframeworkTests;
+			productName = YetAnotherXcframeworkTests;
+			productReference = 075D9DA92C985E5C00CB6646 /* YetAnotherXcframeworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,11 +142,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					075D9D982C98553E00CB6646 = {
 						CreatedOnToolsVersion = 15.0.1;
 						LastSwiftMigration = 1500;
+					};
+					075D9DA82C985E5C00CB6646 = {
+						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
@@ -114,12 +168,20 @@
 			projectRoot = "";
 			targets = (
 				075D9D982C98553E00CB6646 /* YetAnotherXcframework */,
+				075D9DA82C985E5C00CB6646 /* YetAnotherXcframeworkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		075D9D972C98553E00CB6646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075D9DA72C985E5C00CB6646 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -137,7 +199,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		075D9DA52C985E5C00CB6646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075D9DAC2C985E5C00CB6646 /* YetAnotherXcframeworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		075D9DAF2C985E5C00CB6646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 075D9D982C98553E00CB6646 /* YetAnotherXcframework */;
+			targetProxy = 075D9DAE2C985E5C00CB6646 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		075D9D9E2C98553E00CB6646 /* Debug */ = {
@@ -268,6 +346,7 @@
 		075D9DA12C98553E00CB6646 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -285,12 +364,12 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0.1;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = com.theoplayer.YetAnotherXcframework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -301,6 +380,7 @@
 		075D9DA22C98553E00CB6646 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -318,13 +398,45 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0.1;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = com.theoplayer.YetAnotherXcframework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		075D9DB12C985E5C00CB6646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57Q22577H2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theoplayer.YetAnotherXcframeworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		075D9DB22C985E5C00CB6646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57Q22577H2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theoplayer.YetAnotherXcframeworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -347,6 +459,15 @@
 			buildConfigurations = (
 				075D9DA12C98553E00CB6646 /* Debug */,
 				075D9DA22C98553E00CB6646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075D9DB02C985E5C00CB6646 /* Build configuration list for PBXNativeTarget "YetAnotherXcframeworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075D9DB12C985E5C00CB6646 /* Debug */,
+				075D9DB22C985E5C00CB6646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

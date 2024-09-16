@@ -1,0 +1,11 @@
+framework module YetAnotherXcframework {
+  umbrella header "YetAnotherXcframework.h"
+  export *
+
+  module * { export * }
+}
+
+module YetAnotherXcframework.Swift {
+  header "YetAnotherXcframework-Swift.h"
+  requires objc
+}
